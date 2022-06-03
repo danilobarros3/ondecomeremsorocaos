@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> lanche </title>
+</head>
+
+    <style>
+
+@font-face {
+    font-family: foodpacker;
+    src: url(fonts/LEMONMILK-Medium.otf);
+}
+
+.body {
+    padding: 0;
+    margin: 0%;
+    text-align: center;
+    
+}
+
+.titletop {
+    font-family: 'foodpacker';
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 0px 2px rgb(255, 94, 0);
+}
+
+.top3 {
+    align-items: center;
+    display: flex;
+    background-color: #e56e27;
+    border-radius: 3px;
+    flex-direction: row;
+    border: solid black;
+
+}
+.imagem {
+    background-size: 100%;
+    width: 285px;
+    height: 150px;
+    margin: 2% auto;
+    border-radius: 5px;    
+    box-shadow: 8px 8px 12px black;   
+
+}
+
+.titlecorpo {
+    margin: 2%;
+    color: white;
+    text-align: center;
+    font-family: 'foodpacker';
+    text-shadow: 5px 0px 2px rgb(255, 94, 0);
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.galeria img {
+    padding: 2px;
+    margin: 1px;
+    width: 285px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.produtos {
+    margin: 3% auto;
+    padding: 10px;
+    color: white;
+    display: flex;
+    width: auto;
+    background-color: #e56d278e;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: 'foodpacker';
+    text-shadow: 1px 2px 1px black;
+}
+
+.nome {
+    color: rgb(255, 255, 255);
+}
+</style>
+<body background="fundo2.jpg">
+        <div class="titletop">
+            <h1> <center> <Font size="6"> Top 3 mais pedidos  </Font> </h1>
+        </div>
+    <div class="top3">
+        <div class="imagem"> <a href="https://www.ifood.com.br/delivery/sorocaba-sp/mcdonalds----alem-ponte-dso-alem-ponte/" target="_blank"> <img src="mcdonald.png" width="285px" height="150px"> </a> </div>
+        <div class="imagem"> <a href="https://www.ifood.com.br/delivery/votorantim-sp/outback---shopping-iguatemi-esplanada-parque-bela-vista/a455b173-18f3-4702-95eb-8ea4164668dc" target="_blank"> <img src="outback.png" width="285px" height="150px"> </a> </div>
+        <div class="imagem"> <a href="https://www.ifood.com.br/delivery/sorocaba-sp/acai-da-barra---sorocaba-jardim-vergueiro" target="_blank"> <img src="acai.png" width="285px" height="150px"> </a> </div>
+    </div>
+    <div class="titlecorpo">
+        <Font size="7">
+            LANCHES
+        </Font>
+
+    </div>
+    <div class="galeria">
+        <div class="produtos">
+            <h2 class="nome"> RR LANCHES </h2> <a href="https://www.rrlanches.com.br/" target="_blank"> <img src="rrlogo.jpg"> </a>
+        </div>
+        <div class="produtos">
+            <h2 class="nome"> BURGUER KING </h2> <a href="https://burgerking.com.br/?gclid=EAIaIQobChMItMmw1-OA-AIV90FIAB3iDwTEEAAYASAAEgKgkvD_BwE" target="_blank"> <img src="bk.jpg"> </a>
+        </div>
+        <div class="produtos">
+            <h2 class="nome"> SUBWAY </h2> <a href="https://www.subway.com/pt-BR" target="_blank"> <img src="subway.jfif"> </a>
+        </div>
+    </div>
+    <div class="galeria">
+        <div class="produtos">
+            <h2 class="nome"> KFC </h2> <a href="https://kfcbrasil.com.br/" target="_blank"> <img src="KFC.jpg"> </a>
+        </div>
+        <div class="produtos">
+            <h2 class="nome"> ALEMAO BURGUER </h2> <a href="https://www.ifood.com.br/delivery/sorocaba-sp/alemao-burger---sorocaba-centro/5b954467-9f5b-4558-8228-938e48d6456e" target="_blank"> <img src="alemao.jpg"> </a>
+        </div>
+        <div class="produtos">
+            <h2 class="nome"> OCA BURGUER </h2> <a href="https://www.ocaburger.com.br/menu/?utm_source=google&utm_medium=cpc&utm_campaign=pesquisas-sorocaba" target="_blank"> <img src="oca.jfif"> </a>
+        </div>
+    </div>
+    <div class="galeria">
+        <div class="produtos">
+            <h2 class="nome"> MCDONALDS </h2> <a href="https://www.mcdonalds.com.br/" target="_blank"> <img src="mcdonald.png"> </a>
+        </div>
+        <div class="produtos">
+            <h2 class="nome"> COLUMBIA BURGUERS </h2> <a href="https://www.columbiaburguers.com.br/" target="_blank"> <img src="columbia.jpg"> </a>
+        </div>
+        <div class="produtos">
+            <h2 class="nome"> ARTESANOS BURGUER </h2> <a href="https://artesanosburger.menudino.com/" target="_blank"> <img src="Artesanos.png"> </a>
+        </div>
+    </div>
+</body>
+</html>
